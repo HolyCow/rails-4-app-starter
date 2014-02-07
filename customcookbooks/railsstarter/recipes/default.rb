@@ -20,6 +20,6 @@ rbenv_execute "run" do
 end
 
 link "/home/vagrant/.bashrc" do
-  to "/vagrant/config/bashrc"
+  to "/vagrant/customconfig/bashrc"
 end
 
