@@ -7,6 +7,9 @@ Vagrant.configure("2") do |config|
 
   config.ssh.forward_agent = true
 
+  config.vm.network "forwarded_port", guest: 3000, host: 3000,
+    auto_correct: true
+
   config.vm.provision :chef_solo do |chef|
     chef.cookbooks_path = ["cookbooks"]
 
