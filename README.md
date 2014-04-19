@@ -1,7 +1,7 @@
 Rails 4 App Starter
 ===================
 
-This is the base that I use to copy an app that I created in https://github.com/HolyCow/rails-4-starter
+When I create an app using https://github.com/HolyCow/rails-4-starter, I use this as a starting point for the new vagrant box.  I will either fork or copy these files and then put the app folder (rails new <my_app> folder would be called 'my_app) in the root of this repository.
 
 How
 ===
